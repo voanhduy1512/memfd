@@ -30,5 +30,7 @@ int main(int argc, char **argv){
   if (ret == -1)
     error("ftruncate()");
 
+  printf("success");
+
   return 0;
 }
